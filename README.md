@@ -8,4 +8,4 @@ Personal VAD Unofficial Code : https://github.com/pirxus/personalVAD
   
 # Code
 pvad.py : Read file, Concatenate audio, Make features and Train  
-demo.py : Use single set (embedding(enrollment) and test audio) and model to output Personal VAD audio
+demo.py : Use single set (embedding (enrollment) and test audio) and model to output Personal VAD audio
