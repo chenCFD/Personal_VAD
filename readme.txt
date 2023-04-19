@@ -1,4 +1,4 @@
-please download full version at openSLR librispeech (https://www.openslr.org/12)
+please download full version of audio dataset at openSLR librispeech (https://www.openslr.org/12)
 
 environment:
 python: 3.9
