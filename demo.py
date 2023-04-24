@@ -65,7 +65,7 @@ for model in models:
     
     dvector_model = VoiceEncoder()
 
-    file = glob(os.path.join("embeddingff","*.flac"))
+    file = glob(os.path.join("embedding","*.flac"))
 
     wavs_dvector = []
 
@@ -78,7 +78,7 @@ for model in models:
     
     #create features
     
-    file = glob(os.path.join("testff","*.flac"))
+    file = glob(os.path.join("test","*.flac"))
 
     x, sr = sf.read(file[0])
     arr = x.astype(np.float32, order='C')
@@ -152,7 +152,7 @@ for model in models:
     plt.plot(t1,arr)
     plt.show()
     
-    sf.write('outputff_from'+model[8:-3]+'.flac' , arr, sr)
+    sf.write('output_from'+model[8:-3]+'.flac' , arr, sr)
     
 
 
